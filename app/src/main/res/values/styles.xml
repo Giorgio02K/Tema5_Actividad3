@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Definir los colores cálidos -->
+    <color name="colorPrimary">#D2B48C</color> <!-- Color arena claro -->
+    <color name="colorPrimaryVariant">#C19A6B</color> <!-- Arena más oscuro -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Blanco para contraste -->
+    <color name="colorSecondary">#F4A460</color> <!-- Tono salmón claro -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- Blanco para contraste -->
+    <color name="colorBackground">#FAEBD7</color> <!-- Tono crema suave -->
+    <color name="colorSurface">#FFE4C4</color> <!-- Tono beige -->
+    <color name="colorOnBackground">#5D4037</color> <!-- Marrón oscuro para el texto -->
+    <color name="colorOnSurface">#5D4037</color> <!-- Marrón oscuro para contraste -->
+
+    <style name="Theme.Tema4Actividad2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Personaliza tu tema aquí. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+    </style>
+</resources>
